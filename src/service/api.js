@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const baseURL = "http://localhost:3030";
+// const baseURL = "http://localhost:3030";
+const baseURL = "https://human-resources-api1.herokuapp.com";
 
 //Getting all employees
 export const getEmployees = async (token) => {
